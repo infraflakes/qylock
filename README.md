@@ -1,13 +1,23 @@
+<div align="right">
+<details>
+  <summary><b>☕ Support My Work</b></summary>
+  <p align="right">
+    <br>
+    <img src="https://img.shields.io/badge/UPI-abhaydevka169%40okicici-00BFFF?style=for-the-badge&logo=google-pay&logoColor=white"/>
+    <br><br>
+    <i>Thank you for your kindness!</i>
+  </p>
+</details>
+</div>
+
 <p align="center">
 <pre align="center">
 <a href="#setup">setup​​</a>  •  <a href="#themes">​themes​</a>  •  <a href="#gallery">​gallery</a>  •  <a href="#credits">​credits</a>
 </pre>
 </p>
 
-<video id="header" width="100%" height="auto" autoplay loop muted playsinline style="border-radius: 10px; margin-top: 20px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <source src="./Assets/Enfield_-_MERGE_-_Videobolt.net.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img id="header" align="center" src="./Assets/1.png" alt="SDDM Themes" width="100%" style="border-radius: 10px; margin-top: 20px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+
 
 <p align="center">
   <a href="https://github.com/sddm/sddm"><img src="https://img.shields.io/badge/SDDM-000000?style=for-the-badge&logo=linux&logoColor=white"/></a>
@@ -21,9 +31,6 @@
 
 ### ✦ ᴏᴠᴇʀᴠɪᴇᴡ
 A simple collection of all the SDDM themes I've made. It comes with an automated dependency installer and a theme changer script so you don't have to worry about moving files manually. 
-
-<br>
-
 
 <br>
 
