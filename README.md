@@ -2,7 +2,7 @@
 
 <p align="center">
 <pre align="center">
-<a href="#setup">sᴇᴛᴜᴘ​​</a>  •  <a href="#themes">​ᴛʜᴇᴍᴇs​</a>  •  <a href="#themes">​ɢᴀʟʟᴇʀʏ</a>  •  <a href="#credits">​ᴄʀᴇᴅɪᴛs</a>
+<a href="#sddm">sᴅᴅᴍ​​</a>  •  <a href="#quickshell">​ǫᴜɪᴄᴋsʜᴇʟʟ​</a>  •  <a href="#gallery">​ɢᴀʟʟᴇʀʏ</a>  •  <a href="#credits">​ᴄʀᴇᴅɪᴛs</a>
 </pre>
 </p>
 
@@ -30,47 +30,28 @@
 
 <br>
 
-### ✦ ᴏᴠᴇʀᴠɪᴇᴡ
-A simple collection of all the SDDM themes I've made. It comes with an automated dependency installer and a theme changer script so you don't have to worry about moving files manually. 
+###  ᴏᴠᴇʀᴠɪᴇᴡ
+A simple collection of all the lockscreen themes I've made. It comes with a theme changer script so you don't have to worry about moving files manually. 
 
 <br>
 
 ---
 
 <div align="center">
-  <h2 id="setup"> ⚙️ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ⚙️ </h2>
+  <h2 id="sddm">  ꜱᴅᴅᴍ ꜱᴇᴛᴜᴘ  </h2>
 </div>
 
-### ⚡ ᴛʜᴇ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ᴘᴀᴛʜ (ᴀʀᴄʜ ʟɪɴᴜx)
-
-> [!TIP]
-> **Recommended:** Use the provided scripts to handle everything. The `setup.sh` script is not just for installation—you can run it anytime to quickly switch between themes.
-
-```sh
-# 1. Install required dependencies
-chmod +x "install_dependencies(arch).sh"
-./"install_dependencies(arch).sh"
-
-# 2. Select and apply your theme
-chmod +x setup.sh
-./setup.sh
-```
-
-> [!IMPORTANT]
-> The `setup.sh` script works best with `fzf` installed, but will fallback to a simple list if needed.
-
-<br>
-
-### ⚡ ᴛʜᴇ ᴍᴀɴᴜᴀʟ ᴘᴀᴛʜ
-
-If you're on another distro or just want to do it yourself:
+### ⚡ ɪɴꜱᴛᴀʟʟᴀᴛɪᴏɴ ᴀɴᴅ ᴜꜱᴀɢᴇ
 
 **1. Install Dependencies:**
-Make sure you have these (names might differ on your distro):
+Make sure you have these packages installed via your system's package manager (names might differ slightly on your distro):
 - `sddm`, `qt5-graphicaleffects`, `qt5-multimedia`, `qt5-quickcontrols`, `qt5-quickcontrols2`, `qt5-svg`
 
 **2. Use the Setup Script:**
 Simply run the interactive script to select and apply your themes. As long as you have the dependencies, this will handle the rest.
+> [!IMPORTANT]
+> The `setup.sh` script works best with `fzf` installed, but will fallback to a simple list if needed.
+
 ```sh
 chmod +x setup.sh
 ./setup.sh
@@ -81,7 +62,32 @@ chmod +x setup.sh
 ---
 
 <div align="center">
-  <h2 id="themes"> ◈ ᴛʜᴇ ᴄᴏʟʟᴇᴄᴛɪᴏɴ ◈ </h2>
+  <h2 id="quickshell">  ʟᴏᴄᴋꜱᴄʀᴇᴇɴ ꜱᴇᴛᴜᴘ (ǫᴜɪᴄᴋꜱʜᴇʟʟ)  </h2>
+</div>
+
+If you're here to use these as lockscreen themes, then you can use QUICKSHELL to do so.
+
+**1. Install Target Dependencies:**
+You will need Quickshell and the Qt6 multimedia tools to render the assets.
+*   Arch Linux (AUR): `quickshell` or `quickshell-git`
+*   Required Qt6 dependencies: `qt6-declarative`, `qt6-5compat`, `qt6-multimedia`, `qt6-multimedia-ffmpeg` (or `qt6-multimedia-gstreamer`)
+
+**2. Run the Interactive Installer:**
+Execute the `quickshell.sh` script to set up your target lockscreen theme and create the needed directories in your local environment.
+```sh
+chmod +x quickshell.sh
+./quickshell.sh
+```
+
+**3. Configure your Window Manager:**
+Once completed, the script will output copy-paste snippets. You simply bind a keyboard shortcut in your WM config (e.g., Qtile, Hyprland, Sway or i3) to trigger `~/.local/share/quickshell-lockscreen/lock.sh`.
+
+<br>
+
+---
+
+<div align="center">
+  <h2 id="gallery"> ◈ ᴛʜᴇ ᴄᴏʟʟᴇᴄᴛɪᴏɴ ◈ </h2>
 </div>
 
 <br>
@@ -169,7 +175,7 @@ chmod +x setup.sh
 ---
 
 <div align="center">
-  <h2 id="credits"> ☕ ᴄʀᴇᴅɪᴛꜱ ᴀɴᴅ ɢʀᴀᴛɪᴛᴜᴅᴇ ☕ </h2>
+  <h2 id="credits">  ᴄʀᴇᴅɪᴛꜱ ᴀɴᴅ ɢʀᴀᴛɪᴛᴜᴅᴇ  </h2>
 </div>
 
 * **Pumphium** -  A huge thanks to this lil guy for helping me with the theme suggestions and debugging with me.
@@ -182,3 +188,4 @@ chmod +x setup.sh
   <br>
   <p><i>Make your login your own. Stay ricey.</i></p>
 </div>
+
