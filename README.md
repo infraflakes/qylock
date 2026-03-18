@@ -45,7 +45,7 @@ A simple collection of all the lockscreen themes I've made. It comes with a them
 
 **1. Install Dependencies:**
 Make sure you have these packages installed via your system's package manager (names might differ slightly on your distro):
-- `sddm`, `qt5-graphicaleffects`, `qt5-multimedia`, `qt5-quickcontrols`, `qt5-quickcontrols2`, `qt5-svg`
+- `sddm`, `qt5-graphicaleffects`, `qt5-multimedia`, `qt5-quickcontrols`, `qt5-quickcontrols2`, `qt5-svg`, `qt6-multimedia-ffmpeg` (or `qt6-multimedia-gstreamer`)
 
 **2. Use the Setup Script:**
 Simply run the interactive script to select and apply your themes. As long as you have the dependencies, this will handle the rest.
