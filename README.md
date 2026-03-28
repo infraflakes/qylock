@@ -37,8 +37,9 @@ A simple collection of all the lockscreen themes I've made. It comes with a them
 ### ⚡ ɪɴꜱᴛᴀʟʟᴀᴛɪᴏɴ ᴀɴᴅ ᴜꜱᴀɢᴇ
 
 **1. Install Dependencies:**
-Make sure you have these packages installed via your system's package manager (names might differ slightly on your distro):
-- `sddm`, `qt5-graphicaleffects`, `qt5-multimedia`, `qt5-quickcontrols`, `qt5-quickcontrols2`, `qt5-svg`,`qt6-multimedia-ffmpeg`, `qt6-multimedia-gstreamer`
+*   **Core SDDM:** `sddm`, `qt5-graphicaleffects`, `qt5-quickcontrols2`, `qt5-svg`
+*   **Video Support:** `qt5-multimedia` (for Qt5) OR `qt6-multimedia-ffmpeg` (for Qt6)
+*   **Optional:** `fzf` (for the interactive script)
 
 **2. Use the Setup Script:**
 Simply run the interactive script to select and apply your themes. As long as you have the dependencies, this will handle the rest.
@@ -78,9 +79,9 @@ Some themes in this collection use premium or trademarked fonts that cannot be r
 If you're here to use these as lockscreen themes, then you can use QUICKSHELL to do so.
 
 **1. Install Target Dependencies:**
-You will need Quickshell and the Qt6 multimedia tools to render the assets.
-*   Arch Linux (AUR): `quickshell` or `quickshell-git`
-*   Required Qt6 dependencies: `qt6-declarative`, `qt6-5compat`, `qt6-multimedia`, `qt6-multimedia-ffmpeg`, `qt6-multimedia-gstreamer`
+*   **Core:** `quickshell` (or `quickshell-git`), `qt6-declarative`, `qt6-5compat`
+*   **Video Support:** `qt6-multimedia`, `qt6-multimedia-ffmpeg` (or `qt6-multimedia-gstreamer`)
+*   **Optional:** `fzf` (for the interactive script)
 
 **2. Run the Interactive Installer:**
 Execute the `quickshell.sh` script to set up your target lockscreen theme and create the needed directories in your local environment.
@@ -186,6 +187,70 @@ Once completed, simply bind a keyboard shortcut in your Window Manager's configu
 
 <div align="center">
   <img src="./Assets/ninja_gaiden.gif" width="100%"/>
+</div>
+
+<br>
+
+### ◈ Pixel - Coffee
+
+<div align="center">
+  <img src="./Assets/pixel_coffee.gif" width="100%"/>
+</div>
+
+<br>
+
+### ◈ Pixel - Dusk City
+
+<div align="center">
+  <img src="./Assets/pixel_dusk_city.gif" width="100%"/>
+</div>
+
+<br>
+
+### ◈ Pixel - Emerald
+
+<div align="center">
+  <img src="./Assets/pixel_emerald.gif" width="100%"/>
+</div>
+
+<br>
+
+### ◈ Pixel - Hollow Knight
+
+<div align="center">
+  <img src="./Assets/pixel_hollowknight.gif" width="100%"/>
+</div>
+
+<br>
+
+### ◈ Pixel - Munchax
+
+<div align="center">
+  <img src="./Assets/pixel_munchax.gif" width="100%"/>
+</div>
+
+<br>
+
+### ◈ Pixel - Night City
+
+<div align="center">
+  <img src="./Assets/pixel_night_city.gif" width="100%"/>
+</div>
+
+<br>
+
+### ◈ Pixel - Rainy Room
+
+<div align="center">
+  <img src="./Assets/pixel_rainyroom.gif" width="100%"/>
+</div>
+
+<br>
+
+### ◈ Pixel - Skyscrapers
+
+<div align="center">
+  <img src="./Assets/pixel_skyscrapers.gif" width="100%"/>
 </div>
 
 <br>
