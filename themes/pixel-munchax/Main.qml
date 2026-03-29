@@ -17,7 +17,7 @@ Rectangle {
     readonly property color mCream: "#fcf8eb"
     readonly property color mOrange: "#f4a261"
 
-    FolderListModel { id: fontFolder; folder: "font"; nameFilters: ["*.ttf", "*.otf"] }
+    FolderListModel { id: fontFolder; folder: Qt.resolvedUrl("font"); nameFilters: ["*.ttf", "*.otf"] }
     FontLoader { id: pf; source: fontFolder.count > 0 ? "font/" + fontFolder.get(0, "fileName") : "" }
     
     ListView { id: sessionHelper; model: sessionModel; currentIndex: root.sessionIndex; visible: false; delegate: Item { property string sName: model.name || "" } }

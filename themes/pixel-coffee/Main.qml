@@ -14,7 +14,7 @@ Rectangle {
     readonly property color steel: "#5c7996"
     readonly property color textDim: "#a09088"
 
-    FolderListModel { id: fontFolder; folder: "font"; nameFilters: ["*.ttf", "*.otf"] }
+    FolderListModel { id: fontFolder; folder: Qt.resolvedUrl("font"); nameFilters: ["*.ttf", "*.otf"] }
     FontLoader { id: pf; source: fontFolder.count > 0 ? "font/" + fontFolder.get(0, "fileName") : "" }
     ListView { id: sessionHelper; model: sessionModel; currentIndex: root.sessionIndex; visible: false; delegate: Item { property string sName: model.name || "" } }
     ListView { id: userHelper; model: userModel; currentIndex: root.userIndex; visible: false; delegate: Item { property string uName: model.realName || model.name || ""; property string uLogin: model.name || "" } }
