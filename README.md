@@ -32,6 +32,9 @@
   <img src="https://img.shields.io/badge/-SDDM%20SETUP-7aa2f7?style=for-the-badge&labelColor=1a1b26" height="60" />
 </p>
 <br>
+
+Start by installing these dependencies using the package manager of your distro. (Note: Names might vary depending on your distribution.)
+
 <details>
 <summary><b>View Dependencies</b></summary>
 <br>
@@ -70,7 +73,6 @@ Some themes rely on fonts that cannot be bundled here (copyright issues). Downlo
 chmod +x sddm.sh && ./sddm.sh
 ```
 
-<p><i>The script uses <code>fzf</code> for an interactive theme picker. Falls back to a numbered list if it is not installed.</i></p>
 <br>
 <p align="center">━━━━━━━ ❖ ━━━━━━━</p>
 
@@ -83,6 +85,7 @@ chmod +x sddm.sh && ./sddm.sh
 
 <br>
 
+Start by installing these dependencies using the package manager of your distro. (Note: Names might vary depending on your distribution.)
 <details>
 <summary><b>View Dependencies</b></summary>
 <br>
@@ -98,6 +101,15 @@ chmod +x sddm.sh && ./sddm.sh
 
 <br>
 
+#### INSTALLATION
+
+```sh
+chmod +x quickshell.sh && ./quickshell.sh
+```
+
+
+<br>
+
 #### SHORTCUT BINDING
 
 Point your Window Manager keybind (e.g., in Hyprland, Qtile, Sway, or i3) directly to:
@@ -108,14 +120,7 @@ Point your Window Manager keybind (e.g., in Hyprland, Qtile, Sway, or i3) direct
 
 <br>
 
-#### INSTALLATION
 
-```sh
-chmod +x quickshell.sh && ./quickshell.sh
-```
-
-
-<br>
 
 <p align="center">━━━━━━━ ◈ ━━━━━━━</p>
 
