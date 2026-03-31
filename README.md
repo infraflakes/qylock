@@ -2,43 +2,36 @@
   <img src="./Assets/title.png" alt="qylock" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);"/>
 </p>
 
+<p align="center">
+  <a href="#sddm-setup"><img src="https://img.shields.io/badge/SDDM-black?style=for-the-badge&color=7aa2f7&labelColor=1a1b26&logo=linux&logoColor=white"/></a>&nbsp;<a href="#quickshell-setup"><img src="https://img.shields.io/badge/QUICKSHELL-black?style=for-the-badge&color=bb9af7&labelColor=1a1b26&logo=qt&logoColor=white"/></a>&nbsp;<a href="https://github.com/Darkkal44/qylock/stargazers"><img src="https://img.shields.io/github/stars/Darkkal44/qylock?style=for-the-badge&color=9ece6a&labelColor=1a1b26&logo=github&logoColor=white"/></a>&nbsp;<a href="https://github.com/Darkkal44/qylock"><img src="https://img.shields.io/github/repo-size/Darkkal44/qylock?style=for-the-badge&color=e0af68&labelColor=1a1b26&logo=git&logoColor=white"/></a>
+</p>
+
 <div align="center">
-
-```ocaml
-A COZY COLLECTION OF COZY LOCKSCREEN THEMES FOR SDDM AND QUICKSHELL
-```
-
+<pre>
+<a href="#sddm-setup">ꜱᴅᴅᴍ</a> &nbsp; • &nbsp; <a href="#quickshell-setup">ǫᴜɪᴄᴋsʜᴇʟʟ</a> &nbsp; • &nbsp; <a href="#gallery">ɢᴀʟʟᴇʀʏ</a> &nbsp; • &nbsp; <a href="#credits">ᴄʀᴇᴅɪᴛꜱ</a>
+</pre>
 </div>
 
-<pre align="center">
-<a href="#sddm-setup">SDDM</a> • <a href="#quickshell-setup">QUICKSHELL</a> • <a href="#gallery">GALLERY</a> • <a href="#credits">CREDITS</a>
-</pre>
-
-<h1>
-  <a href="#---------1">
-    <img alt="STARS" align="right" src="https://img.shields.io/github/stars/Darkkal44/qylock?style=flat-square&color=000000&logo=star&logoColor=white&labelColor=000000"/>
-  </a>
-  <a href="#---------2">
-    <img alt="QUICKSHELL" align="right" src="https://img.shields.io/badge/Quickshell-black?style=flat-square&color=000000&logo=qt&logoColor=white"/>
-  </a>
-  <a href="#---------3">
-    <img alt="SDDM" align="right" src="https://img.shields.io/badge/SDDM-black?style=flat-square&color=000000&logo=linux&logoColor=white"/>
-  </a>
-</h1>
-
-
-<h2>HELLOWW!</h2>
-
-Welcome to Qylock! Thank you for stopping by!
-
 <br>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/-HELLO%20THERE!!-e0af68?style=for-the-badge&labelColor=1a1b26" height="60" />
+</p>
+
+<p>Welcome to <b>Qylock</b>! Pretty much a bunch of lockscreen themes I've put together for SDDM and Quickshell. I've always loved the "cozy" and minimalist vibe, so I've tried to keep everything looking clean~ </p>
+
+<p><i>Hope ya find something that fits your setup! Thanks for stopping by!!</i></p>
 
 <br>
+<p align="center">━━━━━━━ ❖ ━━━━━━━</p>
 
-<h2 align="center">SDDM SETUP</h2>
+<a id="sddm-setup"></a>
+<br>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/-SDDM%20SETUP-7aa2f7?style=for-the-badge&labelColor=1a1b26" height="60" />
+</p>
+<br>
 <details>
 <summary><b>View Dependencies</b></summary>
 <br>
@@ -69,20 +62,26 @@ Some themes rely on fonts that cannot be bundled here (copyright issues). Downlo
 
 </details>
 
+<br>
+
 #### INSTALLATION
+
 ```sh
 chmod +x sddm.sh && ./sddm.sh
 ```
 
-> The script uses `fzf` for an interactive theme picker. Falls back to a numbered list if it is not installed.
+<p><i>The script uses <code>fzf</code> for an interactive theme picker. Falls back to a numbered list if it is not installed.</i></p>
+<br>
+<p align="center">━━━━━━━ ❖ ━━━━━━━</p>
 
+<a id="quickshell-setup"></a>
 <br>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/-QUICKSHELL%20SETUP-bb9af7?style=for-the-badge&labelColor=1a1b26" height="60" />
+</p>
 
 <br>
-
-<h2 align="center">QUICKSHELL SETUP</h2>
 
 <details>
 <summary><b>View Dependencies</b></summary>
@@ -97,32 +96,35 @@ chmod +x sddm.sh && ./sddm.sh
 
 </details>
 
+<br>
+
 #### SHORTCUT BINDING
+
 Point your Window Manager keybind (e.g., in Hyprland, Qtile, Sway, or i3) directly to:
+
 ```sh
 ~/.local/share/quickshell-lockscreen/lock.sh
 ```
 
+<br>
+
 #### INSTALLATION
+
 ```sh
 chmod +x quickshell.sh && ./quickshell.sh
 ```
 
-<br>
-
----
 
 <br>
 
-<div align="center">
+<p align="center">━━━━━━━ ◈ ━━━━━━━</p>
 
-```ocaml
-CLICK OR VIEW AN IMAGE IN THE GALLERY FOR FULL PREVIEW
-```
+<a id="gallery"></a>
+<br>
 
-</div>
-
-<h2 align="center">GALLERY</h2>
+<p align="center">
+  <img src="https://img.shields.io/badge/-GALLERY-9ece6a?style=for-the-badge&labelColor=1a1b26" height="60" />
+</p>
 
 <br>
 
@@ -227,26 +229,30 @@ CLICK OR VIEW AN IMAGE IN THE GALLERY FOR FULL PREVIEW
   </table>
 </div>
 
-<br>
-
----
 
 <br>
 
-<h2 align="center">CREDITS</h2>
+<p align="center">━━━━━━━ ◈ ━━━━━━━</p>
 
+<a id="credits"></a>
+<br>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-CREDITS-f7768e?style=for-the-badge&labelColor=1a1b26" height="60" />
+</p>
+
+<div align="center">
+  
 | | |
-|:--|:--|
+|:---:|:---:|
 | ☕ **[max](https://ko-fi.com/B0B1UPVVB)** | Genuinely blown away — thank you! |
 | **Pumphium** | Theme suggestions, testing, and late-night debugging. |
 | **Qt / QML Community** | The framework powering every theme in this collection. |
 | **Unixporn** | Endless aesthetic inspiration and community feedback. |
 
+</div>
 <br>
-
----
-
-<br>
+<p align="center">━━━━━━━ ༓ ━━━━━━━</p>
 
 <div align="center">
   <p><i>Make your login your own.</i></p>
@@ -254,5 +260,3 @@ CLICK OR VIEW AN IMAGE IN THE GALLERY FOR FULL PREVIEW
     <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi">
   </a>
 </div>
-
-<br>
